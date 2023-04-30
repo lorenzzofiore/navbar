@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar by lorenzzofiore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- JQUERY -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- WOW Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <div class="wow animate__animated animate__fadeInLeft animate__fast"><a class="navbar-brand" href="index.html"><img class="logo-desktop" height="80px" src="/images/elefe-logo.svg" alt="Logo TRUFA"></div>
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="navbar-icon" class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse oculto wow animate__animated animate__fadeInRight animate__fast" id="bs-example-navbar-collapse-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-item" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-item" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-item" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-item" href="#">Contact</a>
+                    </li>           
+                </ul>
+                <a class="btn-navbar" href="#">Let´s Talk</a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="js/menu.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--Animations when you scroll-->
+    <script>
+        new WOW().init();
+    </script>
+    
+</body>
+</html>
